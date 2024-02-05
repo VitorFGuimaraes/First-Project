@@ -102,7 +102,59 @@
           </div>
         </section>
         <section id="reservation" class="reservation">
+          <h2 class="reservation__title">Reservar uma mesa
+          </h2>
+          <form class="reservation__form">
+            <fieldset class="form__fieldset">
+              <label for="name" class="form__label" >Nome *
+              </label>
+                <input
+                  type="text"
+                  class="form__input"
+                  id="name"
+                  name="name"
+                  placeholder="Nome"
+                  required>
+              <label for="number" class="form__label">Número de convidados *
+              </label>
+                <input
+                  type="number"
+                  class="form__input"
+                  id="number"
+                  name="number"
+                  placeholder="1-8"
+                  min="1" max="8"
+                  required>
+              <label for="datetime-local" class="form__label">Data e hora *
+              </label>
+                <input
+                  type="datetime-local"
+                  class="form__input form__imput_date-time"
+                  name="datetime-local"
+                  id="datetime-local">
+              <label for="email" class="form__label">Seu e-mail *
+              </label>
+                <input
+                type="email"
+                class="form__input"
+                name="email"
+                id="email">
+                <button
+                class="form__button">Reservar uma mesa
+              </button>
+              <label
+                for="checkbox"
+                class="form__label_checkbox">
+                <input
+                  type="checkbox"
+                  class="form__imput_checkbox"
+                  id="checkbox"
+                  name="checkbox">
+                  <p class="form__paragraph_checkbox">Eu concordo com os termos de uso</p>
+              </label>
+            </fieldset>
 
+          </form>
         </section>
         <section id="menu" class="menu">
 
