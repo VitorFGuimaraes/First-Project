@@ -202,6 +202,7 @@
   background-position: center;
   background-size: cover;
   margin: 0 auto;
+  padding-bottom: 120px;
 }
 
 .reservation__title {
@@ -220,7 +221,6 @@
 .reservation__form {
   display: flex;
   justify-content: center;
-  padding-bottom: 120px;
 }
 
 .reservation__form_fieldset {
