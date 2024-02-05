@@ -286,7 +286,7 @@
   margin-right: 12px;
 }
 
-.label_checkbox {
+.form__label_checkbox {
   border-radius: 2px;
   display: flex;
   margin-top: 0;
