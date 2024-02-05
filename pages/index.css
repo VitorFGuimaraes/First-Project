@@ -223,14 +223,14 @@
   justify-content: center;
 }
 
-.reservation__form_fieldset {
+.form__fieldset {
   display: flex;
   flex-direction: column;
   max-width: 385px;
   border: 0;
 }
 
-.form__label {
+.fieldset__label {
   margin-bottom: 8px;
   font-family: Inter;
   font-style: normal;
