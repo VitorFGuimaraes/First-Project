@@ -239,7 +239,7 @@
   line-height: 20px;
 }
 
-.reservation__form_input {
+.form__imput {
   border-radius: 4px;
   margin-bottom: 32px;
   height: 60px;
@@ -266,7 +266,7 @@
   opacity: 70%;
 }
 
-.reservation__form_button {
+.form__button {
   max-width: 385px;
   margin-bottom: 32px;
   height: 60px;
@@ -280,13 +280,13 @@
   background-color: #2f80ed;
 }
 
-.reservation__form_imput-checkbox {
+.form__imput_checkbox {
   width: 20px;
   height: 20px;
   margin-right: 12px;
 }
 
-.reservation__form_label-checkbox {
+.label_checkbox {
   border-radius: 2px;
   display: flex;
   margin-top: 0;
