@@ -33,7 +33,7 @@
   color: #6F6F6F;
 }
 
-.placeholder {
+.form__imput::placeholder{
   color: #838383;
 }
 
